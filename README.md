@@ -2,7 +2,7 @@
 
 日本のROS開発者によるオンライン会議「ROS Japan Developer Kaigi(会議)」の情報をまとめたリポジトリです。
 
-設立背景については、[こちら]()を御覧ください。
+設立背景については、[こちら](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/presentation/ROS_Japan_Developer_Kaigi/ROS_Japan_Developer_Kaigi.html)を御覧ください。
 
 ## 基本情報 📌
 
