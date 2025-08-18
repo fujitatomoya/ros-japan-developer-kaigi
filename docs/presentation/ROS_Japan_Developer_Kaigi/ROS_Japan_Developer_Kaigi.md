@@ -88,10 +88,10 @@ ROS本線を開発しよう🤖
 技術課題をシェアしよう🧑‍💻👩‍💻
 目指せ！ROSコミッター＆メンテナー🚀🚀
 
-# Picture me! Join now!
+# Picture & Join Now!
 
 <!---
-Comment here
+Note: This QR code leads to github project, that is the main repo.
 --->
 
 ---
@@ -102,7 +102,7 @@ Comment here
 
 - 日本のROS／ロボット開発促進
 - 技術課題などの情報共有
-- 言語障壁の撤廃(英語)  
+- 言語障壁の撤廃
 - 産学連携／コミュニティ技術連携促進  
 - オープンソース開発促進
 
@@ -116,7 +116,7 @@ Comment here
 
 - 言語: 日本語
 - 対象: [ROS 2 Core Repositories](https://github.com/ros2/ros2)
-- 対象者: ROS開発者／エンジニア／学生の方
+- 対象者: ROS開発者／エンジニア／学生の方／誰でもOK
 - 形式: オンライン GoogleMeet／Bi-Weekly／50min
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
@@ -135,7 +135,7 @@ This is expected to be a temporary repository, whenever it is ready, i would lov
 - Pull Requestの状況確認、質問、対策議論
 - 新機能提案や技術課題の議論
 - 回避策、ワークアラウンドなどの検討
-- まとまった成果は、ROSCon Japan／ROSCon で発表
+- まとまった成果は、ROSCon JP／ROSCon で発表
 - [ROS 2 Documentation](https://github.com/ros2/ros2_documentation)の改善
 
 **mainlineをベースとしたOSSのエンジニアリングを考えています。**
@@ -153,9 +153,9 @@ Comment here
 
 - Be constructive, productive and inclusive.
 - Respect, nobody works for free.
+- Understanding != Agreement.
 - Trust needs to be earned.
 - Progress, not perfection.
-- Understanding != Agreement.
 
 <!---
 Comment here
