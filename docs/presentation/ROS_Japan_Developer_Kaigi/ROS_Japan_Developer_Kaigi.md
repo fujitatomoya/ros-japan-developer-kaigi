@@ -6,7 +6,7 @@ footer: "[fujitatomoya@github](https://github.com/fujitatomoya) / [tomoyafujita@
 paginate: true
 ---
 
-![bg right:30% 50%](./images/fujitatomoya-github.com.png)
+![bg right:30% 75%](./images/fujitatomoya-github.com.png)
 
 # ROS Japan Developer Kaigi(会議)
 
@@ -16,6 +16,7 @@ paginate: true
 - [ROS Project Management Committee](https://docs.ros.org/en/rolling/The-ROS2-Project/Governance.html#current-ros-pmc-constituents)
 - ROS 2 core committer and developer
 - ROSCon PC／OC／EC etc...
+- [IEEE Robotics & Automation Practice Editorial Board](https://www.ieee-ras.org/publications/ra-p/editorial-board)
 
 <!---
 Comment here
@@ -118,9 +119,9 @@ Comment here
 - 対象: [ROS 2 Core Repositories](https://github.com/ros2/ros2)
 - 対象者: ROS開発者／エンジニア／学生の方／誰でもOK
 - 形式: オンライン GoogleMeet／Bi-Weekly／50min
+- ROS Discourse: [Local User Groups - ROS Japan User Group](https://discourse.openrobotics.org/c/local/japan/32)
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
-- GoogleDocs: https://docs.google.com/document/d/1Dlt-UJt6FY1bnqZRK7aHTBly3G54j2n7U6bHT6Wnigo/edit?usp=sharing
 
 <!---
 Currently google group and github repository is under my personal account.

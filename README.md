@@ -10,13 +10,14 @@
 - 対象: [ROS 2 Core Repositories](https://github.com/ros2/ros2)
 - 対象者: ROS開発者／エンジニア／学生の方
 - 形式: オンライン GoogleMeet／Bi-Weekly／50min
+- ROS Discourse: [Local User Groups - ROS Japan User Group](https://discourse.openrobotics.org/c/local/japan/32)
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
 - GoogleDocs: https://docs.google.com/document/d/1Dlt-UJt6FY1bnqZRK7aHTBly3G54j2n7U6bHT6Wnigo/edit?usp=sharing
 
 ## 参加方法 🙋‍♀️
 
-1. [GoogleGroup](https://groups.google.com/g/ros-japan-developer-kaigi)に参加してください。
+1. [GoogleGroup](https://groups.google.com/g/ros-japan-developer-kaigi) もしくは [ROS Discourse - Local User Groups - ROS Japan User Group](https://discourse.openrobotics.org/c/local/japan/32) に参加してください。
 2. 次回の会議案内が届きますので、会議案内に記載されているGoogleMeetから参加してください。
 
 ## 課題募集 🧑‍💻
