@@ -14,7 +14,8 @@ paginate: true
 
 - Former [ROS Technical Steering Committee](https://docs.ros.org/en/foxy/The-ROS2-Project/Governance/ROS2-TSC-Charter.html)
 - [ROS Project Management Committee](https://docs.ros.org/en/rolling/The-ROS2-Project/Governance.html#current-ros-pmc-constituents)
-- ROS 2 core committer and developer
+- ROS 2 core maintainer
+- [Google Summer of Code Mentor](https://summerofcode.withgoogle.com/organizations/open-robotics/programs)
 - ROSCon PC／OC／EC etc...
 - [IEEE Robotics & Automation Practice Editorial Board](https://www.ieee-ras.org/publications/ra-p/editorial-board)
 
