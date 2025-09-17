@@ -9,7 +9,7 @@
 - 言語: 日本語
 - 対象: [ROS 2 Core Repositories](https://github.com/ros2/ros2)
 - 対象者: ROS開発者／エンジニア／学生の方
-- 形式: オンライン GoogleMeet／Bi-Weekly／50min
+- 形式: オンライン GoogleMeet／Bi-Weekly／50min (※会議の録画は行いません)
 - ROS Discourse: [Local User Groups - ROS Japan User Group](https://discourse.openrobotics.org/c/local/japan/32)
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
