@@ -14,7 +14,7 @@
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
 - GoogleDocs: https://docs.google.com/document/d/1Dlt-UJt6FY1bnqZRK7aHTBly3G54j2n7U6bHT6Wnigo/edit?usp=sharing
-- Slack: [ROS Japan UG ros-japan-dev-kaigi](https://rosjp.slack.com/archives/C09ET5QCRDJ)
+- Slack: [ROS Japan UG ros-japan-dev-kaigi](https://rosjp.slack.com/archives/C09ET5QCRDJ) ([招待フォーム](https://goo.gl/forms/bTA1P7oQo24lzTlX2))
 
 ## 参加方法 🙋‍♀️
 
