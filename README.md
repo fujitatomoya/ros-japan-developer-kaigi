@@ -14,8 +14,8 @@
 - GoogleGroup: https://groups.google.com/g/ros-japan-developer-kaigi
 - Github: https://github.com/fujitatomoya/ros-japan-developer-kaigi
 - GoogleDocs: https://docs.google.com/document/d/1Dlt-UJt6FY1bnqZRK7aHTBly3G54j2n7U6bHT6Wnigo/edit?usp=sharing
-- Slack: [ROS Japan UG ros-japan-dev-kaigi](https://rosjp.slack.com/archives/C09ET5QCRDJ)
-  - [rosjp Slackの招待フォーム](https://goo.gl/forms/bTA1P7oQo24lzTlX2)
+- Zulip: [Dev-kaigi ミーティング連絡&相談](https://openrobotics.zulipchat.com/#narrow/channel/528046-Japan/topic/.5BDev-kaigi.5D.20.E3.83.9F.E3.83.BC.E3.83.86.E3.82.A3.E3.83.B3.E3.82.B0.E9.80.A3.E7.B5.A1.EF.BC.86.E7.9B.B8.E8.AB.87/with/577477960)
+  - [OpenRobotics Official Zulip Server](https://openrobotics.zulipchat.com/)
 
 ## 参加方法 🙋‍♀️
 
