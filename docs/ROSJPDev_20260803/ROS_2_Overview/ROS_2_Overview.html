@@ -48,7 +48,7 @@ Our centralized mainline documentation site is <a href="https://docs.ros.org/">R
 <header><strong>ROS 2 Full Stack Overview</strong></header>
 <h2 id="community-sites">Community Sites</h2>
 <ul>
-<li><a href="https://github.com/ros2">ROS 2 Github</a>
+<li><a href="https://github.com/ros2">ROS 2 GitHub</a>
 <ul>
 <li>Development, Design, Source code</li>
 </ul>
@@ -153,17 +153,17 @@ Our centralized mainline documentation site is <a href="https://docs.ros.org/">R
 </section>
 </foreignObject><foreignObject width="1280" height="720" data-marpit-advanced-background="pseudo"><section data-header="__ROS 2 Full Stack Overview__" data-footer="[fujitatomoya@github](https://github.com/fujitatomoya) / [tomoyafujita@linkedin](https://www.linkedin.com/in/tomoya-fujita-5bb656b6/)" data-paginate="true" data-theme="default" lang="en-US" data-marpit-pagination="11" style="" data-marpit-pagination-total="38" data-marpit-advanced-background="pseudo" data-marpit-advanced-background-split="right"></section></foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-header="__ROS 2 Full Stack Overview__" data-footer="[fujitatomoya@github](https://github.com/fujitatomoya) / [tomoyafujita@linkedin](https://www.linkedin.com/in/tomoya-fujita-5bb656b6/)" data-paginate="true" data-theme="default" lang="en-US" data-marpit-pagination="12" style="--header:__ROS 2 Full Stack Overview__;--footer:[fujitatomoya@github](https://github.com/fujitatomoya) / [tomoyafujita@linkedin](https://www.linkedin.com/in/tomoya-fujita-5bb656b6/);--paginate:true;--theme:default;" data-marpit-pagination-total="38">
 <header><strong>ROS 2 Full Stack Overview</strong></header>
-<h1 id="lifecyclenode"><a href="https://design.ros2.org/articles/node_lifecycle.html">LifeCycleNode</a></h1>
+<h1 id="lifecyclenode"><a href="https://design.ros2.org/articles/node_lifecycle.html">LifecycleNode</a></h1>
 <p>A managed life cycle for nodes allows greater control over the state of ROS system. It allows <code>roslaunch</code> to ensure that all components have been instantiated correctly before it allows any component to begin executing its behavior. It will also allow nodes to be restarted or replaced on-line.</p>
 <ul>
 <li>Primary State
 <ul>
-<li><code>Unconfigure</code>, <code>Inactive</code>, <code>Active</code> and <code>Finalized</code></li>
+<li><code>Unconfigured</code>, <code>Inactive</code>, <code>Active</code> and <code>Finalized</code></li>
 </ul>
 </li>
 <li>Transition State
 <ul>
-<li><code>Configuring</code>, <code>ClearningUp</code>, <code>ShuttingDown</code>, <code>Activating</code>, <code>Deactivating</code> and <code>ErrorProcessing</code></li>
+<li><code>Configuring</code>, <code>CleaningUp</code>, <code>ShuttingDown</code>, <code>Activating</code>, <code>Deactivating</code> and <code>ErrorProcessing</code></li>
 </ul>
 </li>
 </ul>
@@ -177,7 +177,7 @@ Our centralized mainline documentation site is <a href="https://docs.ros.org/">R
 <header><strong>ROS 2 Full Stack Overview</strong></header>
 <h1 id="components"><a href="https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Composition.html">Components</a></h1>
 <ul>
-<li>inheritted/inspired from ROS 1 Nodelet</li>
+<li>inherited/inspired from ROS 1 Nodelet</li>
 <li>Multiple components in a single process</li>
 <li>Can load and unload the composable node</li>
 <li>Composable nodes as shared libraries</li>
@@ -189,7 +189,7 @@ Our centralized mainline documentation site is <a href="https://docs.ros.org/">R
 <h1 id="executor"><a href="https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Executors.html">Executor</a></h1>
 <ul>
 <li>SingleThreadedExecutor: single thread to dispatch task and execute.</li>
-<li>MultiThreadedExecutor: mulith-thread to dispatch task and execute. (via <code>std::thread::hardware_concurrency</code>)</li>
+<li>MultiThreadedExecutor: multi-threaded to dispatch task and execute. (via <code>std::thread::hardware_concurrency</code>)</li>
 <li>EventExecutor (rclcpp): Uses events queue in the Executor to execute the entities from associated nodes.</li>
 <li>EventsCBGExecutor (rclcpp): <a href="https://docs.ros.org/en/rolling/Releases/Release-Lyrical-Luth.html#callback-group-events-executor-rclcpp">Callback Group Events Executor</a>, like the <code>EventsExecutor</code> it uses an events queue, but adds support for multiple sources of ROS time and multiple threads. Uses 10% to 15% less CPU than the Single/Multi-Threaded executors. (available on Lyrical Luth)</li>
 </ul>
@@ -264,7 +264,7 @@ Our centralized mainline documentation site is <a href="https://docs.ros.org/">R
 <li><a href="https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Domain-ID.html">Physical Domain</a> / <a href="https://docs.ros.org/en/rolling/Tutorials/Advanced/Improved-Dynamic-Discovery.html">Discovery Range Control</a></li>
 <li><a href="https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Security.html">ROS 2 Security</a></li>
 <li><a href="https://docs.ros.org/en/humble/How-To-Guides/Configure-ZeroCopy-loaned-messages.html">True Zero Copy / Loaned Message</a></li>
-<li>Wait for Acknowledgement</li>
+<li>Wait for Acknowledgements</li>
 <li><a href="https://docs.ros.org/en/rolling/Tutorials/Demos/Content-Filtering-Subscription.html">Content Filtered Topics</a></li>
 <li><a href="https://micro.ros.org/">Micro-Controller Support (Micro-ROS)</a></li>
 </ul>
@@ -327,7 +327,7 @@ Security files enable encryption and authentication, and define policies both fo
 </li>
 <li>Constraints
 <ul>
-<li>bound data type only supported. (plain data type)</li>
+<li>Only bounded data types are supported. (plain data types)</li>
 </ul>
 </li>
 <li>Configuration
@@ -353,12 +353,12 @@ Security files enable encryption and authentication, and define policies both fo
 <tr>
 <td style="text-align:left">Fast-DDS</td>
 <td style="text-align:left">1</td>
-<td style="text-align:left">Zero Copy supported. Even with shared memory transport, DDS feature full supported.</td>
+<td style="text-align:left">Zero Copy supported. Even with shared memory transport, DDS feature are fully supported.</td>
 </tr>
 <tr>
-<td style="text-align:left">Cyclonedds</td>
+<td style="text-align:left">Cyclone DDS</td>
 <td style="text-align:left">1</td>
-<td style="text-align:left">DDS with shared memory bypass by iceoryx which requires daemon. When using shared memory, DDS feature cannot be supported such as QoS.</td>
+<td style="text-align:left">DDS with shared memory bypass by iceoryx which requires daemon. When using shared memory, DDS features such as QoS are not supported.</td>
 </tr>
 <tr>
 <td style="text-align:left">RTI Connext DDS</td>
@@ -385,10 +385,10 @@ Security files enable encryption and authentication, and define policies both fo
 <h1 id="content-filtered-topics"><a href="https://docs.ros.org/en/rolling/Tutorials/Demos/Content-Filtering-Subscription.html">Content Filtered Topics</a></h1>
 <ul>
 <li>
-<p>RMW Content Filtering completed. (Fast-DDS / RTI supported)</p>
+<p>RMW content filtering implemented (Fast-DDS / RTI supported)</p>
 </li>
 <li>
-<p>Optimization to conserve network resource.</p>
+<p>Optimization to conserve network resources.</p>
 </li>
 <li>
 <p><a href="https://github.com/ros2/design/pull/282">ROS2 Design Overview</a></p>

@@ -61,7 +61,7 @@ Comment here
 
 ## Community Sites
 
-- [ROS 2 Github](https://github.com/ros2)
+- [ROS 2 GitHub](https://github.com/ros2)
   - Development, Design, Source code
 - [ROS Discourse](https://discourse.ros.org/)
   - Discussion / Announcement / Release
@@ -151,14 +151,14 @@ Comment here
 
 ---
 
-# [LifeCycleNode](https://design.ros2.org/articles/node_lifecycle.html)
+# [LifecycleNode](https://design.ros2.org/articles/node_lifecycle.html)
 
 A managed life cycle for nodes allows greater control over the state of ROS system. It allows `roslaunch` to ensure that all components have been instantiated correctly before it allows any component to begin executing its behavior. It will also allow nodes to be restarted or replaced on-line.
 
 - Primary State
-  - `Unconfigure`, `Inactive`, `Active` and `Finalized`
+  - `Unconfigured`, `Inactive`, `Active` and `Finalized`
 - Transition State
-  - `Configuring`, `ClearningUp`, `ShuttingDown`, `Activating`, `Deactivating` and `ErrorProcessing`
+  - `Configuring`, `CleaningUp`, `ShuttingDown`, `Activating`, `Deactivating` and `ErrorProcessing`
 
 <!---
 Comment here
@@ -176,7 +176,7 @@ Comment here
 
 # [Components](https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Composition.html)
 
-- inheritted/inspired from ROS 1 Nodelet
+- inherited/inspired from ROS 1 Nodelet
 - Multiple components in a single process
 - Can load and unload the composable node
 - Composable nodes as shared libraries
@@ -190,7 +190,7 @@ Comment here
 # [Executor](https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Executors.html)
 
 - SingleThreadedExecutor: single thread to dispatch task and execute.
-- MultiThreadedExecutor: mulith-thread to dispatch task and execute. (via `std::thread::hardware_concurrency`)
+- MultiThreadedExecutor: multi-threaded to dispatch task and execute. (via `std::thread::hardware_concurrency`)
 - EventExecutor (rclcpp): Uses events queue in the Executor to execute the entities from associated nodes.
 - EventsCBGExecutor (rclcpp): [Callback Group Events Executor](https://docs.ros.org/en/rolling/Releases/Release-Lyrical-Luth.html#callback-group-events-executor-rclcpp), like the `EventsExecutor` it uses an events queue, but adds support for multiple sources of ROS time and multiple threads. Uses 10% to 15% less CPU than the Single/Multi-Threaded executors. (available on Lyrical Luth)
 
@@ -297,7 +297,7 @@ Comment here
 - [Physical Domain](https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Domain-ID.html) / [Discovery Range Control](https://docs.ros.org/en/rolling/Tutorials/Advanced/Improved-Dynamic-Discovery.html)
 - [ROS 2 Security](https://docs.ros.org/en/rolling/Concepts/Intermediate/About-Security.html)
 - [True Zero Copy / Loaned Message](https://docs.ros.org/en/humble/How-To-Guides/Configure-ZeroCopy-loaned-messages.html)
-- Wait for Acknowledgement
+- Wait for Acknowledgements
 - [Content Filtered Topics](https://docs.ros.org/en/rolling/Tutorials/Demos/Content-Filtering-Subscription.html)
 - [Micro-Controller Support (Micro-ROS)](https://micro.ros.org/)
 
@@ -370,7 +370,7 @@ Comment here
   - This class needs to be used by application to borrow memory from middleware during publication.
   - [LoanedMessage Talker Demo](https://github.com/ros2/demos/blob/master/demo_nodes_cpp/src/topics/talker_loaned_message.cpp)
 - Constraints
-  - bound data type only supported. (plain data type)
+  - Only bounded data types are supported. (plain data types)
 - Configuration
   - Suitable for `PREALLOCATED_MEMORY_MODE` and `PREALLOCATED_WITH_REALLOC_MEMORY_MODE` memory configurations only
   - see [MemoryManagementPolicy](https://fast-dds.docs.eprosima.com/en/latest/fastdds/api_reference/rtps/resources/MemoryManagementPolicy.html#_CPPv4N8eprosima8fastrtps4rtps22MemoryManagementPolicy24PREALLOCATED_MEMORY_MODEE)
@@ -383,8 +383,8 @@ Comment here
 
 | DDS | Tier | Description |
 | :--- | :--- | :--- |
-| Fast-DDS | 1 | Zero Copy supported. Even with shared memory transport, DDS feature full supported. |
-| Cyclonedds | 1 | DDS with shared memory bypass by iceoryx which requires daemon. When using shared memory, DDS feature cannot be supported such as QoS. |
+| Fast-DDS | 1 | Zero Copy supported. Even with shared memory transport, DDS feature are fully supported. |
+| Cyclone DDS | 1 | DDS with shared memory bypass by iceoryx which requires daemon. When using shared memory, DDS features such as QoS are not supported. |
 | RTI Connext DDS | 1 | Commercial only, but most featured DDS implementation |
 | Zenoh | 1 | Not supported |
 
@@ -406,8 +406,8 @@ Comment here
 
 # [Content Filtered Topics](https://docs.ros.org/en/rolling/Tutorials/Demos/Content-Filtering-Subscription.html)
 
-- RMW Content Filtering completed. (Fast-DDS / RTI supported)
-- Optimization to conserve network resource.
+- RMW content filtering implemented (Fast-DDS / RTI supported)
+- Optimization to conserve network resources.
 - [ROS2 Design Overview](https://github.com/ros2/design/pull/282)
 
   | DDS | Content Filter Supported? |
