@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- upstream -->
+  <rect x="90" y="20" width="240" height="70" rx="10" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+  <text x="210" y="48" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a73e8">upstream</text>
+  <text x="210" y="70" text-anchor="middle" font-size="14" fill="#333">ros2/rclcpp</text>
+
+  <!-- origin (fork) -->
+  <rect x="90" y="220" width="240" height="70" rx="10" fill="#e6f4ea" stroke="#188038" stroke-width="2"/>
+  <text x="210" y="248" text-anchor="middle" font-size="16" font-weight="bold" fill="#188038">origin (your fork)</text>
+  <text x="210" y="270" text-anchor="middle" font-size="14" fill="#333">&lt;you&gt;/rclcpp</text>
+
+  <!-- local clone -->
+  <rect x="90" y="420" width="240" height="70" rx="10" fill="#fef7e0" stroke="#e37400" stroke-width="2"/>
+  <text x="210" y="448" text-anchor="middle" font-size="16" font-weight="bold" fill="#e37400">local clone</text>
+  <text x="210" y="470" text-anchor="middle" font-size="14" fill="#333">~/rclcpp</text>
+
+  <!-- fork arrow: upstream -> origin -->
+  <line x1="150" y1="90" x2="150" y2="218" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="140" y="160" text-anchor="end" font-size="12" fill="#555">fork</text>
+
+  <!-- PR arrow: origin -> upstream -->
+  <line x1="270" y1="220" x2="270" y2="92" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="280" y="160" text-anchor="start" font-size="12" fill="#555">pull request</text>
+
+  <!-- clone/push: origin <-> local -->
+  <line x1="150" y1="290" x2="150" y2="418" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="140" y="360" text-anchor="end" font-size="12" fill="#555">clone</text>
+  <line x1="270" y1="420" x2="270" y2="292" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="280" y="360" text-anchor="start" font-size="12" fill="#555">push</text>
+
+  <!-- fetch: upstream -> local (side curve) -->
+  <path d="M330,55 C400,55 400,455 330,455" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <text x="398" y="255" text-anchor="middle" font-size="12" fill="#777" transform="rotate(90 398 255)">fetch upstream</text>
+</svg>
