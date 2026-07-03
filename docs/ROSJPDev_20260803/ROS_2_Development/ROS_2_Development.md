@@ -131,7 +131,7 @@ Develop against rolling unless the fix is specific to an older released distro.
 
 ---
 
-# ROS 2 Branches — Backporting via Mergifyio
+# ROS 2 Branches — Backporting via Mergify
 
 - Fixes needed on released distros are **backported** from `rolling`.
 - Label the PR (e.g. `backport-jazzy`) so **Mergify** automates a cherry-pick PR.
