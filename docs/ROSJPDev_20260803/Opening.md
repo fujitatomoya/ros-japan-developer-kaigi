@@ -154,7 +154,7 @@ Comment here
 |------|-------------|-----------|---------------------|
 | 14:00-14:05 | T. Fujita | T. Fujita | Opening / 挨拶 / 注意事項説明 |
 | 14:05-14:15 | T. Fujita | 筑波大学 | 筑波大学／研究室紹介 |
-| 14:15-14:35 | T. Fujita | T. Fujita | [ROS 2 Core Full Stack / Governance](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Overview/ROS_2_Overview.html#15) |
+| 14:15-14:35 | T. Fujita | T. Fujita | [ROS 2 Core Full Stack / Governance](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Overview/ROS_2_Overview.html) |
 | 14:35-14:55 | T. Fujita | nomumu | ROS 1 → ROS 2 migration deep-dive |
 | 14:55-15:05 | T. Fujita | N.A | 休憩 |
 
@@ -183,7 +183,7 @@ Comment here
 
 | Time | Facilitator | Presenter | Title / Description |
 |------|-------------|-----------|---------------------|
-| 15:55-16:50 | nomumu | T. Fujita / F. Onishi | Git workflow / ROS branch / Colcon build・test・CI / Issue・PR作成 / QA / Support |
+| 15:55-16:50 | nomumu | T. Fujita / F. Onishi | [ROS 2 Development / Git workflow](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Development/ROS_2_Development.html) |
 | 16:50-17:00 | nomumu | nomumu | Closing |
 | 17:00-17:30 | All | N.A | 退室 |
 
