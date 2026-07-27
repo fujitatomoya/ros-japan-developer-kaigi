@@ -170,7 +170,7 @@ Comment here
 |------|-------------|-----------|---------------------|
 | 15:05-15:15 | F. Onishi | [小森 顕博](https://github.com/comoc) | ROSでできる？できない？ |
 | 15:15-15:30 | F. Onishi | [加藤大典](https://github.com/dskkato) | [CUDA-IPC](https://github.com/dskkato/ros2_cuda_ipc) |
-| 15:30-15:45 | F. Onishi | OPEN | Issue紹介 + 議論 |
+| 15:30-15:45 | F. Onishi | OPEN | Issue紹介 + 議論 (Backup [ROS 2 Executor](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Executor/ROS_2_Executor.html)) |
 | 15:45-15:55 | F. Onishi | N.A | 休憩 |
 
 <!---
@@ -195,7 +195,8 @@ Comment here
 
 # Networking / 食事 :cocktail:
 
-T.B.D
+## 18:30 -
+## [四十八漁場 つくば店 ](https://r.gnavi.co.jp/gkwxn6h30000/)
 
 <!---
 Comment here
