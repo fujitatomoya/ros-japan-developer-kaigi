@@ -168,9 +168,9 @@ Comment here
 
 | Time | Facilitator | Presenter | Title / Description |
 |------|-------------|-----------|---------------------|
-| 15:05-15:15 | F. Onishi | 発表者① | Issue紹介 + 議論 |
-| 15:15-15:30 | F. Onishi | 発表者② | Issue紹介 + 議論 |
-| 15:30-15:45 | F. Onishi | 発表者③ | Issue紹介 + 議論 |
+| 15:05-15:15 | F. Onishi | [小森 顕博](https://github.com/comoc) | ROSでできる？できない？ |
+| 15:15-15:30 | F. Onishi | [加藤大典](https://github.com/dskkato) | [CUDA-IPC](https://github.com/dskkato/ros2_cuda_ipc) |
+| 15:30-15:45 | F. Onishi | OPEN | Issue紹介 + 議論 |
 | 15:45-15:55 | F. Onishi | N.A | 休憩 |
 
 <!---
