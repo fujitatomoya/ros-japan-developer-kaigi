@@ -128,7 +128,6 @@ Comment here
 - Wi-Fiはありません。テザリングをご利用ください 📶
 - 発表者はご自身のlaptopを利用してください 💻
 - オンライン参加なし／レコーディングもなし 🚫
-- 資料は別途公開予定: [https://github.com/fujitatomoya/ros-japan-developer-kaigi](https://github.com/fujitatomoya/ros-japan-developer-kaigi)
 
 <!---
 筑波大学の方 (学生／スタッフ) はオブザーバとして登録不要で参加自由です 🎓
@@ -155,7 +154,7 @@ Comment here
 | 14:00-14:05 | T. Fujita | T. Fujita | Opening / 挨拶 / 注意事項説明 |
 | 14:05-14:15 | T. Fujita | 筑波大学 | 筑波大学／研究室紹介 |
 | 14:15-14:35 | T. Fujita | T. Fujita | [ROS 2 Core Full Stack / Governance](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Overview/ROS_2_Overview.html) |
-| 14:35-14:55 | T. Fujita | nomumu | ROS 1 → ROS 2 migration deep-dive |
+| 14:35-14:55 | T. Fujita | nomumu | [ROS1→ROS2 移行の落とし穴](https://docs.google.com/presentation/d/1hjpfe8UhGYxgwcvlO6VAmMMl_Z3uyBreubcbIqYkKBw/edit?slide=id.p1#slide=id.p1) |
 | 14:55-15:05 | T. Fujita | N.A | 休憩 |
 
 <!---
@@ -168,7 +167,7 @@ Comment here
 
 | Time | Facilitator | Presenter | Title / Description |
 |------|-------------|-----------|---------------------|
-| 15:05-15:15 | F. Onishi | [小森 顕博](https://github.com/comoc) | ROSでできる？できない？ |
+| 15:05-15:15 | F. Onishi | [小森 顕博](https://github.com/comoc) | [ROSでできる？できない？](https://docs.google.com/presentation/d/1j88XmKHzGBAnzB23862Ytpm41rN2waz7BV7CrmupgkE/edit?slide=id.p1#slide=id.p1) |
 | 15:15-15:30 | F. Onishi | [加藤大典](https://github.com/dskkato) | [CUDA-IPC](https://github.com/dskkato/ros2_cuda_ipc) |
 | 15:30-15:45 | F. Onishi | OPEN | Issue紹介 + 議論 (Backup [ROS 2 Executor](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Executor/ROS_2_Executor.html)) |
 | 15:45-15:55 | F. Onishi | N.A | 休憩 |
