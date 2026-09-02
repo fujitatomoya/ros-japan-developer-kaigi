@@ -17,6 +17,20 @@
 - Zulip: [Dev-kaigi ミーティング連絡&相談](https://openrobotics.zulipchat.com/#narrow/channel/528046-Japan/topic/.5BDev-kaigi.5D.20.E3.83.9F.E3.83.BC.E3.83.86.E3.82.A3.E3.83.B3.E3.82.B0.E9.80.A3.E7.B5.A1.EF.BC.86.E7.9B.B8.E8.AB.87/with/577477960)
   - [OpenRobotics Official Zulip Server](https://openrobotics.zulipchat.com/)
 
+## 具体的な活動例 🛠️
+
+- 作成したIssue、特定Issueの課題／問題共有
+- Pull Requestの状況確認、質問、対策議論
+- 新機能提案や技術課題の議論
+- 回避策、ワークアラウンドなどの検討
+- まとまった成果は、ROSCon JP／ROSCon で発表
+- [ROS 2 Documentation](https://github.com/ros2/ros2_documentation)の改善
+
+**mainlineをベースとしたOSSのエンジニアリングを考えています。**
+**技術的な議論、開発、課題以外はトピックとして扱わない予定です。**
+
+基本的には、mainlineの課題を対象としますが、ROS 2のpainpointを解消するための個人プロジェクトの紹介や議論も可能とします。
+
 ## 参加方法 🙋‍♀️
 
 1. [GoogleGroup](https://groups.google.com/g/ros-japan-developer-kaigi) もしくは [ROS Discourse - Local User Groups - ROS Japan User Group](https://discourse.openrobotics.org/c/local/japan/32) に参加してください。
