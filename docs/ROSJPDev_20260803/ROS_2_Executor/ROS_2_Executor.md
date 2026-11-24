@@ -159,7 +159,6 @@ This is the "asking" cost. It is paid whether or not there is work to do, and it
 - Discovery cost grows with entity **count**, not with actual **traffic**.
 - Real systems (Nav2, `rosbag2`, perception pipelines) have *many* entities per process.
 - Especially painful on constrained hardware — ARM SBCs, where "the bottlenecks and resulting CPU contention become so much more apparent."
-- Cellumation's experience after porting to ROS 2: **~15% higher CPU** on the same workload, and **overrun timers leading to livelocks**.
 
 <!---
 The composition story ("put all your nodes in one process") makes this worse, not better: composition increases the entity count per executor.
@@ -255,13 +254,6 @@ Every callback group is in exactly one of **three states**:
 | **Idle** | No pending events |
 | **Busy** | A worker is executing one of its callbacks |
 | **Needs Processing** | Events pending, no worker on it yet |
-
-Update rules (mutually exclusive group):
-
-- Idle + new event → **Needs Processing** (wake a worker)
-- Busy + new event → stays **Busy**
-- Event processed, no events left → **Idle**
-- Event processed, more events → **Needs Processing**
 
 <!---
 This is the whole trick. Readiness is tracked per *group*, not per entity, so the number of entities stops mattering. The group's own FIFO queue holds the events.
