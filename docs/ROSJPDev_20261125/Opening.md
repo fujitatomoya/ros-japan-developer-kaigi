@@ -133,9 +133,8 @@ Comment here
 
 # 運営スタッフ 📝
 
-- Komura Yoko (先端技術研究部, TriOrb)
-- Mishina Yoko (経営推進部, TriOrb)
-- Suzuki Kosuke (経営推進 執行役員, TriOrb)
+- Komura Yoko (先端技術研究部, TriOrb Inc.)
+- Mishina Yoko (経営推進部, TriOrb Inc.)
 - [Tomoya Fujita](https://github.com/fujitatomoya) (TriOrb Inc.)
 
 <!---
