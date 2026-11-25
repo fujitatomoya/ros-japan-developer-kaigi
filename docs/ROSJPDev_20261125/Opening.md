@@ -178,6 +178,23 @@ Comment here
 
 日本でROS`開発`を盛り上げましょう 🥊🥊🥊
 
+でも、その前に。。。。
+
+<!---
+Comment here
+--->
+
+---
+
+![bg right:40% 95%](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-_vjEchOlW1blJC2GmjIfqq0Mbo4uPHw9Zp0z1ekCag&s)
+
+# [ROSCon JP 2027](https://roscon.ros.org/jp)
+
+2027年5月20日(木), 21日(金)に大阪開催！
+
+## スポンサー大募集中
+## 講演募集開始 11月27日(金)
+
 <!---
 Comment here
 --->
