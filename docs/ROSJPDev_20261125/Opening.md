@@ -150,10 +150,10 @@ Comment here
 | 18:00-18:15 | - | Venue Open |
 | 18:15-18:20 | T. Fujita | Opening / 注意事項説明 |
 | 18:20-18:35 | Y.Komura | TriOrb紹介 |
-| 18:35-19:05 | [dskkato](https://github.com/dskkato) | rosidl::Buffer の極意 |
+| 18:35-19:05 | [dskkato](https://github.com/dskkato) | [rosidl::Buffer の極意](https://docs.google.com/presentation/d/1Ma3RPJTnnF_6iQtJcUrn6-GLHG_pXgC7/edit?slide=id.p1#slide=id.p1) |
 | 19:05-19:00 | - | 休憩 |
 | 19:10-19:30 | [fujitatomoya](https://github.com/fujitatomoya) | [ROS 2 Executor](https://raw.githack.com/fujitatomoya/ros-japan-developer-kaigi/main/docs/ROSJPDev_20260803/ROS_2_Executor/ROS_2_Executor.html#1) |
-| 19:30-19:45 | [MrBearing](https://github.com/MrBearing) | One Liner to Install ROS Envirnoment |
+| 19:30-19:45 | [MrBearing](https://github.com/MrBearing) | [get-ros2](https://docs.google.com/presentation/d/1dGYy77PtYX8rju3M9fH79T2oLMEntbJKvT4sl2Gmymg/edit?slide=id.p1#slide=id.p1) |
 | 19:45-20:15 | - | 写真撮影 / Networking / Open Discussion |
 | 20:15-20:30 | - | 撤収 |
 
